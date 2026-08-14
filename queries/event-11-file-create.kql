@@ -1,0 +1,3 @@
+// Sysmon 11: executable or DLL created in a commonly user-writable directory
+event.code: "11" AND (file.name: "*.exe" OR file.name: "*.dll") AND (file.directory: *\\Users\\*\\Downloads* OR file.directory: *\\Temp* OR file.directory: *\\AppData*)
+

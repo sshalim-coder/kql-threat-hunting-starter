@@ -1,0 +1,3 @@
+// Sysmon 13: value set in a common sign-in persistence location
+event.code: "13" AND (registry.path: *\\CurrentVersion\\Run\\* OR registry.path: *\\CurrentVersion\\RunOnce\\*)
+

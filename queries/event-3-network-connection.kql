@@ -1,0 +1,3 @@
+// Sysmon 3: connection to an example lab port; customize for your environment
+event.code: "3" AND (destination.port: 4444 OR destination.port: 5555 OR destination.port: 8081)
+
