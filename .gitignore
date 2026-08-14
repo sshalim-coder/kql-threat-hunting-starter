@@ -1,0 +1,8 @@
+# Keep local investigation exports and secrets out of the repository
+*.csv
+*.json
+*.log
+*.evtx
+.env
+.DS_Store
+
